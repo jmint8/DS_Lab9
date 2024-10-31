@@ -3,6 +3,7 @@ public class MemoryManager
    protected MemoryAllocation head;
     
    protected final String Free = "Free";
+   private final long size;
 
 
     /* size- how big is the memory space.  
@@ -11,7 +12,7 @@ public class MemoryManager
      */
    public MemoryManager(long size)
    {
-   
+	   this.size = size;
    }
 
 
